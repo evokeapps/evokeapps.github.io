@@ -1,2 +1,2 @@
 # evokeapps.github.io
-Dev blog of Evoke Apps, Sri Lanka
+Tech Bits - A blog about bits of tech and programming
