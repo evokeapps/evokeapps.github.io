@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+        <a href="#" class="navbar-brand">{{site.title}}</a>
+    </div>
+</nav>
+<div class="container py-5">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        {% for project in page.projects %}
+        <div class="col">
+            <div class="p-5 rounded shadow border shadow-sm position-relative">
+                <img src="{{project.image | relative_url}}" alt="" class="img-fluid mb-3">
+                <div class="fs-3 fw-bold text-center mb-2">{{project.name}}</div>
+                <div class="fs-6 text-muted text-center">{{project.description}}</div>
+                <a href="{{project.url}}" class="stretched-link" target="_blank"></a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

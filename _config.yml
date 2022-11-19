@@ -1,3 +1,5 @@
-theme: jekyll-theme-leap-day
-title: Tech Bits
-description: A place where we write about tech bits…
+title: EvokeApps
+email: evokeapps@yahoo.com
+description: Experienced full-stack developer - Flutter, PHP, Deno and NodeJS
+plugins:
+  - jekyll-seo-tag
