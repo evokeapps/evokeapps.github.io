@@ -8,13 +8,15 @@ layout: default
 </nav>
 <div class="container py-5">
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
-        {% for project in page.projects %}
+        {{site.posts}}
+        {% for project in site.posts %}
         <div class="col">
-            <div class="p-5 rounded shadow border shadow-sm position-relative">
+            {{project}}
+            <div class="p-5 rounded shadow border shadow-sm position-relative h-100">
                 <img src="{{project.image | relative_url}}" alt="" class="img-fluid mb-3">
                 <div class="fs-3 fw-bold text-center mb-2">{{project.name}}</div>
                 <div class="fs-6 text-muted text-center">{{project.description}}</div>
-                <a href="{{project.url}}" class="stretched-link" target="_blank"></a>
+                <a href="{{project.link}}" class="stretched-link" target="_blank"></a>
             </div>
         </div>
         {% endfor %}
