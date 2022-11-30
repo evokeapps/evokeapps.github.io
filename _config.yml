@@ -1,7 +1,8 @@
 title: EvokeApps
 email: evokeapps@yahoo.com
-description: Experienced full-stack developer - Flutter, PHP, Deno and NodeJS
+description: Experienced full-stack developer - Flutter, and NodeJS
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 collections:
   - projects
