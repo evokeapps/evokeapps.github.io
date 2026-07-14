@@ -10,7 +10,7 @@ title: Privacy Policy
 </nav>
 <div class="container py-4">
   <h1 class="fw-bold mb-4">Privacy Policy</h1>
-  <p class="text-muted">Last updated: July 10, 2026</p>
+  <p class="text-muted">Last updated: July 14, 2026</p>
 
   <p>
     EvokeApps LLC ("we," "our," or "us") operates mobile applications and
@@ -71,6 +71,18 @@ title: Privacy Policy
     information. However, no method of electronic storage or transmission is
     100% secure, and we cannot guarantee absolute security.
   </p>
+
+  <!-- NEW SECTION ADDED TO FIX APP REVIEW REJECTION -->
+  <h2 class="fw-bold mt-4">Data Retention and Deletion</h2>
+  <h3 class="fw-bold mt-3">Data Retention Policy</h3>
+  <p>
+    We retain your personal data (such as your name and email address provided via support requests) only for as long as necessary to fulfill the purposes outlined in this Privacy Policy, comply with our legal obligations, or resolve disputes. Anonymous or aggregated usage data, which cannot be used to identify you, may be retained indefinitely for analytics and performance optimization.
+  </p>
+  <h3 class="fw-bold mt-3">Data Deletion Process</h3>
+  <p>
+    You have the right to request the deletion of your personal information at any time. If you wish to submit a data deletion request, please contact us at <a href="mailto:{{site.email}}">{{site.email}}</a> with the subject line "Data Deletion Request." Upon receiving your request, we will take commercially reasonable steps to verify your identity and delete your personal data from our active records within 30 days, unless a longer retention period is required by law.
+  </p>
+  <!-- END OF NEW SECTION -->
 
   <h2 class="fw-bold mt-4">Children's Privacy</h2>
   <p>
